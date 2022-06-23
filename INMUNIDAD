@@ -1,0 +1,25 @@
+game.StarterGui:SetCore("SendNotification",{Title = "INFO", Text = "This script is from clan immunity Aesir Gaming Clan", Duration = 2})
+wait(1)
+game.StarterGui:SetCore("SendNotification",{Title = "ADVERTENCIA", Text = "For this script you must have in 6 and 7 the stand and sharingan", Duration = 5})
+wait(1)
+game.StarterGui:SetCore("SendNotification",{Title = "Credits", Text = "credits to AesirAzkeel known as Kaarl, a member of the Aesir Gaming Clan", Duration = 2})
+wait(1)
+game.StarterGui:SetCore("SendNotification",{Title ="GO!!!!!", Text = "That said, here we go get ready!!! ", Duration = 2})
+wait(1)
+local RunService = game:GetService("RunService")
+getgenv().AesirAzkeel = "ON"
+local inmu = RunService.RenderStepped:Connect(function()
+	if getgenv().Kaarl == "OF" then
+		game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer("Summon","Stand")
+		game:GetService("ReplicatedStorage").RSPackage.Events.GeneralEvent:FireServer("SpecialAction", {["Key"] = "C",["Request"] = "Power",})
+		game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer("Summon","Bloodlines")
+	else
+		inmu:Disconnect()
+	end
+end)
+	AesirAzkeel = Kaarl +1
+kaarl_azkeel()
+inmunidad(2.0)
+AesirAzkeel()
+AesirGamingClanimmunity()
+Aesircommunity()
