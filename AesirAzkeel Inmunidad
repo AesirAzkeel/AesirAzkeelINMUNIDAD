@@ -1,0 +1,31 @@
+game.StarterGui:SetCore("SendNotification",{Title = "INFO", Text = "This script is from clan immunity Aesir Gaming Clan", Duration = 2})
+wait(1)
+game.StarterGui:SetCore("SendNotification",{Title = "ADVERTENCIA", Text = "For this script you must have in 6 and 7 the stand and sharingan", Duration = 5})
+wait(1)
+game.StarterGui:SetCore("SendNotification",{Title = "Credits", Text = "credits to AesirAzkeel known as Kaarl, a member of the Aesir Gaming Clan", Duration = 2})
+wait(1)
+game.StarterGui:SetCore("SendNotification",{Title ="GO!!!!!", Text = "That said, here we go get ready!!! ", Duration = 2})
+wait(1)
+_G.inm = true;
+
+while _G.inm do
+	local vim = game:service'VirtualInputManager'
+	local peanut = 0
+	while wait(.0) do
+		vim:SendKeyEvent(true, "Seven", false, game)
+		wait(.0)
+		vim:SendKeyEvent(true, "C", false, game)
+		wait(.0)
+		vim:SendKeyEvent(true, "Six", false, game)
+		wait(.0)
+		vim:SendKeyEvent(true, "C", false, game)
+		wait(.0)
+	    AesirAzkeel = kaarl + 1			
+		end
+	end
+AesirAzkeel = Kaarl +1
+kaarl_azkeel()
+inmunidad(2.0)
+AesirAzkeel()
+AesirGamingClanimmunity()
+Aesircommunity()
